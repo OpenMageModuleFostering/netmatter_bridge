@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+* Netmatter
+*
+* @category Netmatter
+* @package Netmatter_Bridge
+* @author Netmatter Team
+* @copyright Copyright (c) 2008-2014 Netmatter Ltd. (http://www.netmatter.co.uk)
+*/
+-->
+<config>
+	<modules>
+		<Netmatter_Bridge>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Netmatter_Bridge>
+	</modules>
+</config>

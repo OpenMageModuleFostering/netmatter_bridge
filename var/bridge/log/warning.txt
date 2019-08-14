@@ -1,0 +1,1 @@
+The logger will assume that any file in this directory is safe to delete.

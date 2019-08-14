@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+    <name>Netmatter_Bridge</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The Volo extension to Magento, powered by Netmatter, allows all high performance Magento stores &#x2013; from single instance up to multiple, multi-lingual stores &#x2013; to carry out 2-way bulk data transfers with the Volo platform in real time, with no loss of Magento performance.</summary>
+    <description>Volo Commerce&#x2019;s platform and services orchestrate the complex ecommerce universe for large online merchants and brands to help them quickly and sustainably &#xD;
+grow their multichannel sales.&#xD;
+&#xD;
+At the heart of this is a comprehensive platform which manages multichannel ecommerce in all the key areas: purchasing, supply, inventory, stock levels, orders, fulfilment, shipping, refunds and returns, and customer service.&#xD;
+&#xD;
+The platform automates what were previously manual processes, allowing sellers to grow rapidly and realise major productivity gains which impact both top line revenues and bottom line profits. &#xD;
+&#xD;
+In the area of multichannel management, the Volo platform enables sellers to add new channels quickly, centrally manage all their channels and post optimised listings simultaneously across the different marketplaces where they have a presence. All Volo customers on average double their revenues within 24 months.&#xD;
+&#xD;
+The Volo extension to Magento, powered by Netmatter, allows all high performance Magento stores &#x2013; from single instance up to multiple, multi-lingual stores &#x2013; to carry out 2-way bulk data transfers with the Volo platform in real time, with no loss of Magento performance.&#xD;
+&#xD;
+This official extension is part of the Netmatter iPaaS network, which makes it possible for multichannel sellers to connect their store to a network of integrated end-points through one common language and configuration.&#xD;
+</description>
+    <notes>The Volo extension to Magento, powered by Netmatter, allows all high performance Magento stores &#x2013; from single instance up to multiple, multi-lingual stores &#x2013; to carry out 2-way bulk data transfers with the Volo platform in real time, with no loss of Magento performance.</notes>
+    <authors><author><name>Netmatter</name><user>netmatter</user><email>support@netmatter.co.uk</email></author></authors>
+    <date>2016-05-25</date>
+    <time>15:57:36</time>
+    <contents><target name="magecommunity"><dir name="Netmatter"><dir name="Bridge"><dir name="Block"><dir name="Adminhtml"><file name="Config.php" hash="c591e8ab43b0ec3573eca83b87daba54"/></dir></dir><dir name="Helper"><file name="Data.php" hash="58598d341eb1190cbd46771510d60c34"/></dir><dir name="Model"><dir name="Order"><file name="Observer.php" hash="2e721431bab206c7c85d9a300f3abfc2"/></dir></dir><dir name="controllers"><file name="CallbackController.php" hash="ac557ce846b284a6c0ba75cfbad85b8b"/></dir><dir name="etc"><file name="adminhtml.xml" hash="182a9db254fd689ee893e2ee5f99de07"/><file name="config.xml" hash="c22bd996078f42df236720d9949148b7"/><file name="system.xml" hash="6d0d3b24fa437f789ee41109773c7440"/></dir><dir name="plugin"><file name="bridge.php" hash="f9140bb29b8c63765fbfdd59018d10f2"/><file name="config.php" hash="9767abf32066dbec049a6eac028ae02c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Netmatter_Bridge.xml" hash="2183bab433800ec9839bb4866e96fc78"/></dir></target><target name="mage"><dir name="var"><dir name="bridge"><dir name="log"><file name="warning.txt" hash="40dcbdea0a509204682ce3e57d3b9487"/></dir><dir name="queue"><file name="warning.txt" hash="40dcbdea0a509204682ce3e57d3b9487"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.2</min><max>7.0.0</max></php></required></dependencies>
+</package>
