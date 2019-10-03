@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Netmatter_Bridge",
+    "name": "OpenMageModuleFostering\/Netmatter_Bridge",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
-    "description": "The Volo extension to Magento, powered by Netmatter, allows all high performance Magento stores – from single instance up to multiple, multi-lingual stores – to carry out 2-way bulk data transfers with the Volo platform in real time, with no loss of Magento performance.",
+    "description": "The Volo extension to Magento, powered by Netmatter, allows all high performance Magento stores \u2013 from single instance up to multiple, multi-lingual stores \u2013 to carry out 2-way bulk data transfers with the Volo platform in real time, with no loss of Magento performance.",
     "authors": [
-    {
-        "name": "Netmatter",
-        "email": "support@netmatter.co.uk"
-    }
-],
+        {
+            "name": "Netmatter",
+            "email": "support@netmatter.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
